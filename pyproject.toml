@@ -43,10 +43,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/agent-claude-refactoring"
-Documentation = "https://github.com/yourusername/agent-claude-refactoring/docs"
-Repository = "https://github.com/yourusername/agent-claude-refactoring"
-Issues = "https://github.com/yourusername/agent-claude-refactoring/issues"
+Homepage = "https://github.com/JosephKisler/agent-claude-refactoring"
+Documentation = "https://github.com/JosephKisler/agent-claude-refactoring#readme"
+Repository = "https://github.com/JosephKisler/agent-claude-refactoring"
+Issues = "https://github.com/JosephKisler/agent-claude-refactoring/issues"
 
 [project.scripts]
 refactoring-agent = "refactoring_agent.cli:cli"
