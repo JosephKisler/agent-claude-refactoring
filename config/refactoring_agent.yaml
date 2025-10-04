@@ -1,0 +1,43 @@
+# Refactoring Agent Configuration
+
+scanner:
+  max_lines: 500
+  max_test_lines: 1000
+  extensions:
+    - .py
+    - .js
+    - .ts
+    - .tsx
+    - .jsx
+    - .html
+    - .css
+  exclude:
+    - .git
+    - node_modules
+    - venv
+    - __pycache__
+    - dist
+    - build
+
+issue_creator:
+  repo: username/repository
+  max_issues_per_run: 5
+  max_issues_per_day: 10
+  labels:
+    - refactoring
+    - automated
+    - code-quality
+
+planner:
+  default_modules: 4
+  strategies:
+    services: python_service
+    core: python_core
+    mcp: mcp_tools
+
+monitor:
+  check_interval: 60
+  auto_merge:
+    enabled: false
+    require_approvals: 2
+    require_ci_success: true
