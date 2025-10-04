@@ -1,4 +1,9 @@
-"""Tests for scanner module."""
+"""Tests for scanner module.
+
+AI-Generated Code Notice:
+    This file was generated using Claude AI (claude-sonnet-4.5-20250929) on 2025-10-04.
+    Subsequently reviewed and validated by Joseph Kisler (@JosephKisler).
+"""
 
 from pathlib import Path
 from refactoring_agent.scanner import MonolithScanner

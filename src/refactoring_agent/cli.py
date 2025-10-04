@@ -1,4 +1,10 @@
-"""Command-line interface for refactoring agent."""
+"""Command-line interface for refactoring agent.
+
+AI-Generated Code Notice:
+    This file was generated using Claude AI (claude-sonnet-4.5-20250929) on 2025-10-04.
+    Subsequently reviewed and tested by Joseph Kisler (@JosephKisler).
+    All functionality validated through automated tests and production use.
+"""
 
 import click
 from pathlib import Path
