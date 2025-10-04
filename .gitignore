@@ -44,3 +44,6 @@ Thumbs.db
 # Project specific
 *.log
 .cache/
+
+# Blog/Social Media (not for public repo)
+CLAUDE_AGENT_GUIDE.md
