@@ -1,5 +1,6 @@
 """Reporter module for generating progress reports."""
 
+
 class ProgressReporter:
     """Generate progress reports and metrics."""
 

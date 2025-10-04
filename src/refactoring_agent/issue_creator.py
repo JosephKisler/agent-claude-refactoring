@@ -3,6 +3,7 @@
 import subprocess
 from typing import Dict
 
+
 class GitHubIssueCreator:
     """Create GitHub Issues for refactoring tasks."""
 
@@ -14,11 +15,11 @@ class GitHubIssueCreator:
         title = f"Refactor: {plan['file']}"
         body = f"@claude Please refactor this file.\n\nLines: {plan['lines']}"
 
-        result = subprocess.run([
-            'gh', 'issue', 'create',
-            '--repo', self.repo,
-            '--title', title,
-            '--body', body
-        ], capture_output=True, text=True, check=False)
+        result = subprocess.run(
+            ["gh", "issue", "create", "--repo", self.repo, "--title", title, "--body", body],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
 
         return result.stdout.strip() if result.returncode == 0 else ""
